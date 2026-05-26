@@ -101,18 +101,22 @@ nav a:hover{
 /* Seção de Poções */
 .pocoes {
     padding: 4rem 0;
-    background-color: #f9f9f9;  
+    background-color: #2c1d2d;
+    color : white;
 }
 
 .itens{
     padding: 4rem 0;
+    background-color: #2c1d2d;
+    color : white;  
 }
 
 .section-title{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #1c0c26 ;
+    color: white;
+     font-family: 'Almendra', serif;
 }
 .cards{
     display: flex;
