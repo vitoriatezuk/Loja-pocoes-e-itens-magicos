@@ -55,8 +55,8 @@ nav a:hover{
 
 /* Hero section */
 .hero{
-    background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop");
-    height: 500px;
+    background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("https://static.vecteezy.com/ti/vetor-gratis/p1/14899701-um-conjunto-de-itens-magicos-caldeirao-de-bruxas-com-pocao-chapeu-de-bruxa-meias-listradas-cristal-com-planta-amuleto-ritual-ilustracao-vintage-em-estilo-boho-dia-das-bruxas-bruxaria-para-o-logotipo-cartazes-cartao-vetor.jpg");
+    height: 700px;
     display: flex;
    justify-content: center; 
    align-items: center;
