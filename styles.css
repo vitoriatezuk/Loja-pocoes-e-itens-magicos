@@ -89,21 +89,25 @@ nav a:hover{
 }
 
 .btn-primary:hover{
-    background-color: #b8935f;
+    background-color: #28163c;
     scale: 0.9;
 }
 
-/* Seção de Produtos */
-.produtos{
+/* Seção de Poções */
+.pocoes {
     padding: 4rem 0;
     background-color: #f9f9f9;  
+}
+
+.itens{
+    padding: 4rem 0;
 }
 
 .section-title{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c1810 ;
+    color: #1c0c26 ;
 }
 .cards{
     display: flex;
