@@ -18,10 +18,11 @@ body{
 }
 
 header{
-    background-color: #200f2c;
+    background-color: #2c1d2d;
     color: white;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     position: sticky;
+    font-family: 'Almendra', serif;
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
