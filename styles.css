@@ -28,7 +28,7 @@ header{
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
     width: 100%;
-    background: linear-gradient(to bottom, #7d664c 80%, #5c4a36 100%);
+    background: linear-gradient(to bottom, #7d664c 100%, #5c4a36 100%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
