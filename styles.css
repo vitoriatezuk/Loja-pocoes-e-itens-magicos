@@ -40,7 +40,7 @@ header{
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: 'Almendra', serif; 
     margin-bottom: 0.5rem;         
@@ -152,7 +152,7 @@ nav a:hover::after {
     /*FLEX 0: elemento não se adapta*/
     /*FLEX 1: elemento se adapta*/
     flex: 1;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 350px;
     transition: transform 0.3s;
 }
@@ -162,7 +162,7 @@ nav a:hover::after {
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .card img{
-    width: 100%;
+    width: 351px;
     height: 200px;
      /*Cobre a div*/
     object-fit: cover;
