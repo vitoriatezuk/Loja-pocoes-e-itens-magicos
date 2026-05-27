@@ -21,26 +21,29 @@ body{
 header{
     background-color: #7d664c;
     color: white;
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     position: sticky;
     font-family: 'Almendra', serif;
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0,0,0, 0.5);
     width: 100%;
+    background: linear-gradient(to bottom, #7d664c 80%, #5c4a36 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .nav{
     display: flex;
     font-size: 1.5rem;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
-.logo{
+.logo {
     font-size: 2.5rem;
     font-weight: bold;
-
+    font-family: 'Almendra', serif; 
+    margin-bottom: 0.5rem;         
 }
 nav{
     display: flex;
@@ -48,16 +51,31 @@ nav{
 }
 
 nav a {
+    font-family: 'Almendra', serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
     color: white;
     text-decoration: none;
-    transition: color 0.5s ease;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
 }
 
-nav a:hover{
-    color: #d4a574;
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d4a574; 
+    transition: width 0.3s ease;
 }
 
-/* Hero section */
+nav a:hover::after {
+    width: 100%;
+}
+
 .hero{
     background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("https://static.vecteezy.com/ti/vetor-gratis/p1/14899701-um-conjunto-de-itens-magicos-caldeirao-de-bruxas-com-pocao-chapeu-de-bruxa-meias-listradas-cristal-com-planta-amuleto-ritual-ilustracao-vintage-em-estilo-boho-dia-das-bruxas-bruxaria-para-o-logotipo-cartazes-cartao-vetor.jpg");
     height: 700px;
