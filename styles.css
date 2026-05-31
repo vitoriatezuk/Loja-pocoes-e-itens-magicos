@@ -74,6 +74,10 @@ nav a::after {
     transition: width 0.3s ease;
 }
 
+nav a:hover{
+    color: #e0d1be;
+}
+
 nav a:hover::after {
     width: 100%;
 }
@@ -269,9 +273,10 @@ nav a:hover::after {
 }
 .footer-icons a{
     color: #a86e2c;
+    transition: color 0.3s ease;
 }
 .footer-icons a:hover{
-    color:#dfba91;
+    color: #e0d1be;
 }
 /* CONFIGURANDO A RESPONSIVIDADE */
 /* MEDIA QUERY: É um recurso do CSS para ajustar elementos conforme a largura da tela */
