@@ -1,6 +1,8 @@
 /*IMPORTAÇÃO DE FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300;400;600;700&display=swap');
+
+/* CONFIGURAÇÕES GERAIS */
 /* Seletor universal */
 *{
     margin: 0;
@@ -21,6 +23,7 @@ body{
     padding: 0 20px;
 }
 
+/* HEADER */
 header{
     background-color: #7d664c;
     color: white;
@@ -82,6 +85,7 @@ nav a:hover::after {
     width: 100%;
 }
 
+/* SEÇÃO HERO */
 .hero{
     background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("images/bannerHero.jpg");
     height: 700px;
@@ -129,7 +133,7 @@ nav a:hover::after {
     scale: 0.9;
 }
 
-/* Seção de Poções */
+/* SEÇÃO POÇÕES */
 .pocoes {
     padding: 4rem 0;
     background-color: #2c1d2d;
@@ -149,6 +153,8 @@ nav a:hover::after {
     color: white;
      font-family: 'Almendra', serif;
 }
+
+/* CONFIGURANDO CARDS */
 .cards{
     display: flex;
     gap: 2rem;
@@ -156,6 +162,7 @@ nav a:hover::after {
     /* QUEBRA DE LINHA */
     flex-wrap: wrap;
 }
+
 .card{
     background-color: wheat;
     border-radius: 10px;
@@ -167,89 +174,92 @@ nav a:hover::after {
     max-width: 350px;
     transition: transform 0.3s;
 }
+
 .card:hover{
     /*DESCOLA O CARD VERTICALMENTE*/
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
+
 .card img{
-    width: 351px;
-    height: 210px;
+    width: 100%;
+    height: 50%;
      /*Cobre a div*/
     object-fit: cover;
 }
+
 .card-content{
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .card-content h3{
     color: #1a102c;
     font-family: 'Almendra', serif;
     font-size: 1.5rem;
 }
+
 .card-content p{
     color: #1a102c9d;
     flex: 1;
     font-size: 1rem;
 }
+
 .price{
     font-family: 'Almendra', serif;
   font-size: 1.5rem;
   color:#a86e2c;
   font-weight: bold;
 }
-/* SEÇÃO SOBRE A EMPRESA */
+
+/*SEÇÃO SOBRE*/
 .sobre{
     padding: 4rem 0;
     background-color: wheat;
 }
+
 .sobre-flex{
     display: flex;
     gap: 3rem;
     align-items: center;
 }
+
 .sobre-imagem{
     flex: 1;
 }
+
 .sobre-imagem img{
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgb(0, 0, 0, 1);
 }
+
 .sobre-texto{
     flex: 1;
     flex-direction: column;
     gap: 1rem;
 }
+
 .sobre-texto h2{
     font-family:"Almendra";
     font-size: 2.25rem;
     color:#1a102c;
 }
+
 .sobre-texto p{
     color: #1a102c9d;
     font-size: 1.1rem;
 }
-.beneficios{
-    list-style: circle;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-.beneficios li{
-    color: #2c1810;
-    font-size: 1.1rem;
-}
+
 /* FOOTER */
 .footer{
     background-color: #2c1810;
     color: white;
     padding: 3rem 0 1rem;
 }
+
 .footer-content{
     display: flex;
     justify-content: space-between;
@@ -258,26 +268,32 @@ nav a:hover::after {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .footer-section{
     flex: 1;
     min-width: 200px;
 }
+
 .footer-section h4{
     margin-bottom: 1rem;
     color: #d4a574;
 }
+
 .footer-bottom{
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid #4a3226;
 }
+
 .footer-icons a{
     color: #a86e2c;
     transition: color 0.3s ease;
 }
+
 .footer-icons a:hover{
     color: #e0d1be;
 }
+
 /* CONFIGURANDO A RESPONSIVIDADE */
 /* MEDIA QUERY: É um recurso do CSS para ajustar elementos conforme a largura da tela */
 /* O BREAKPOINT PARA UM CELULAR É APROXIMADAMENTE 768px */
