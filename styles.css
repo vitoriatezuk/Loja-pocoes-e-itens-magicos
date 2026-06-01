@@ -1,4 +1,4 @@
-/*IMPORTAÇÃO DE FONTES*/
+/* IMPORTAÇÃO DE FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300;400;600;700&display=swap');
 
@@ -53,7 +53,7 @@ header{
 }
 nav{
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 nav a {
@@ -88,7 +88,7 @@ nav a:hover::after {
 /* SEÇÃO HERO */
 .hero{
     background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("images/bannerHero.jpg");
-    height: 700px;
+    height: 800px;
     display: flex;
    justify-content: center; 
    align-items: center;
@@ -116,7 +116,8 @@ nav a:hover::after {
     padding: 1rem 2rem;
     border: none;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-family: 'Source Serif 4';
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.5s;
     transition: scale 0.5s;
