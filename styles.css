@@ -88,7 +88,7 @@ nav a:hover::after {
 /* SEÇÃO HERO */
 .hero{
     background: linear-gradient(rgba(44,24,26, 0.7), rgba(44,24,16, 0.3)), url("images/bannerHero.jpg");
-    height: 800px;
+    height: 700px;
     display: flex;
    justify-content: center; 
    align-items: center;
@@ -166,6 +166,7 @@ nav a:hover::after {
 
 .card{
     background-color:#e0d1be;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     /*FLEX 0: elemento não se adapta*/
@@ -197,13 +198,13 @@ nav a:hover::after {
 }
 
 .card-content h3{
-    color: #1a102c;
+    color:#2c1d2d;
     font-family: 'Almendra', serif;
     font-size: 1.5rem;
 }
 
 .card-content p{
-    color: #1a102c9d;
+    color:#28163c;
     flex: 1;
     font-size: 1rem;
 }
